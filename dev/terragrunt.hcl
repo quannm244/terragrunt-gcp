@@ -6,7 +6,7 @@ remote_state {
     }
 
     config = {
-        bucket = "cccm-terragrunt"
+        bucket = "cccm-terragrunt-dev"
         credentials = "/Users/quannm/Learn/Terraform/creds/ivory-bonus-314308-8e9aa0ead113.json"
         prefix = "${path_relative_to_include()}"
         skip_bucket_creation = true
